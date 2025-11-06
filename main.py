@@ -34,7 +34,8 @@ class Record:
     def edit_phone(self, old_phone, new_phone):
         phone = self.find_phone(old_phone)
         if phone:
-            phone.value = new_phone
+            phone.value = Phone(new_phone).value
+            
             return True
         return False
 

@@ -22,7 +22,7 @@ for name, record in book.data.items():
 
 # Знаходження та редагування телефону для John
 john = book.find("John")
-john.edit_phone("1234567890", "1112223333")
+john.edit_phone("1234567890", "1112223321")
 
 print(john)  # Виведення: Contact name: John, phones: 1112223333; 5555555555
 
